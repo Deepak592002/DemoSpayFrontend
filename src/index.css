@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.users--flow{
+    overflow-x: scroll;
+    scrollbar-width: 0;
+}
+.users--flow::-webkit-scrollbar{
+    width: 0;
+}
